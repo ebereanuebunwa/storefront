@@ -1,0 +1,50 @@
+Association classes eg CartItem
+
+Monolith - a large heavy pice of stone. 
+Follow Uix philosophy. Let each app do one specific thing.
+
+Products
+- Products
+- Collection
+- Tag
+
+Customers
+- Customer
+
+Cart
+- Cart
+- CartItem
+
+Orders 
+- Order
+- OrderItem
+(Problem, too many apps)
+
+
+------- Remedy
+Store
+- Products
+- Collection
+- Customer
+- Cart
+- CartItem
+- Order
+- OrderItem
+
+
+Tags
+- Tag
+- TaggedItem
+(Zero Coupling, meaning we can independently change and deploy them without affecting other apps)
+- Minimum Coupling 
+- High Cohesion
+
+
+
+CIRCULAR DEPENDENCY
+
+Contenttypes can help create generic relationships between models 
+To define a generic relationship, three ... must be defined 
+- Contenttypes
+- Object ID
+- Content Object.

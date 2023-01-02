@@ -1,0 +1,11 @@
+Database Engines(RDBMS)
+- SQLite
+- PostgreSQL *
+- MySQL *
+- MariaDB
+- Oracle
+- MS SQL server
+
+What is a slugfield?
+An id that contains only letters, numbers, underscores, hyphens,
+- Its an SEO move. So search engines can easily find our product
